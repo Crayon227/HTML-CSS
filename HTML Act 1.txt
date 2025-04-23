@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="column">
+            <h2>User Experience</h2>
+            <p>The website feels messy and hard to use because there are too many colors, no clear structure, and poor navigation. It is difficult for users to find information quickly. Also, the overlapping text and images, along with different font styles, make it confusing to read.</p>
+        </div>
+
+        <div class="column">
+            <h2>Content</h2>
+            <p>The website mainly features electric vehicles, gadgets, and technical products. However, the information is scattered and not well-organized. The use of different fonts, colors, and text placements makes it hard to read and understand product details. Some of the text is in Norwegian, which may be difficult for non-Norwegian speakers.</p>
+        </div>
+
+        <div class="column">
+            <h2>Grid Layout</h2>
+            <p>The website does not follow a proper grid structure, making it look disorganized and chaotic. Text and images are not aligned properly, and there is little spacing between sections. The images are of different sizes, adding to the cluttered look. A well-structured grid layout would make the website more organized and easier to use.</p>
+        </div>
+    </div>
+</body>
+</html>

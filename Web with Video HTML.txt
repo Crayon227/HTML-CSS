@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Anita Magsaysay-Ho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #d05fba, #663300);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 20px;
+        }
+        .header {
+            background: #1a1814;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .content {
+            background: #34342a;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);  
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .content video {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">ANITA MAGSAYSAY-HO</div>
+        
+        <div class="content">
+            <h3>"The Fruit Vendors" - A Masterpiece</h3>
+            <div class="image-container">
+                <img src="4.jpg" alt="Part of the painting">
+                <img src="3.jpg" alt="Part of the painting">
+                <img src="1.jpg" alt="Part of the painting">
+                <img src="6.jpg" alt="Part of the painting">
+                <img src="2.jpg" alt="Part of the painting">
+                <img src="5.jpg" alt="Part of the painting">
+            </div>
+        </div>
+
+        <div class="content">
+            <h3>About Anita Magsaysay-Ho</h3>
+            <p>Anita Magsaysay-Ho was a Filipina painter known for her modernist and social realist works depicting the daily lives of Filipino women.</p>
+            
+        </div>
+
+        <div class ="content">
+            <video controls>
+                <source src="Anita.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
